@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Melissa Allen Consulting</title>
+  <meta name="description" content="Consulting services by Melissa Allen — strategy, systems, and straightforward execution for small businesses and teams." />
+  <meta name="author" content="Melissa Allen" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Melissa Allen Consulting" />
+  <meta property="og:description" content="Strategy, systems, and straightforward execution." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com" />
+  <style>
+    :root{
+      --bg:#0f1115;
+      --card:#151924;
+      --text:#e8ecf1;
+      --muted:#aab3bf;
+      --accent:#5cc8ff;
+      --accent-2:#7bffb0;
+      --ring:rgba(92,200,255,0.45);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .container{max-width:980px;margin:0 auto;padding:28px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+    .brand{font-weight:700;letter-spacing:0.2px}
+    .pill{padding:8px 12px;border:1px solid #2a3142;border-radius:999px;color:var(--muted);font-size:14px}
+    header.hero{padding:54px 0 28px}
+    .hero h1{font-size:40px;line-height:1.1;margin:0 0 8px}
+    .hero p{font-size:18px;color:var(--muted);margin:0}
+    .cta{display:flex;gap:12px;margin-top:22px;flex-wrap:wrap}
+    .btn{padding:12px 16px;border-radius:12px;border:1px solid #2a3142;background:#1a2030;color:#e8ecf1;cursor:pointer}
+    .btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#0a0f16;border:none}
+    .btn:hover{filter:brightness(1.05)}
+    .grid{display:grid;gap:18px}
+    .cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin:28px 0}
+    .card{background:var(--card);border:1px solid #20283a;border-radius:16px;padding:18px}
+    h2{font-size:26px;margin:0 0 10px}
+    h3{font-size:18px;margin:0 0 8px}
+    p{margin:0 0 10px}
+    ul{margin:10px 0 0 18px;color:var(--muted)}
+    .section{padding:28px 0;border-top:1px solid #1d2434}
+    .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+    .badge{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+    .badge .dot{width:8px;height:8px;border-radius:50%;background:linear-gradient(90deg,var(--accent),var(--accent-2));box-shadow:0 0 12px var(--ring)}
+    .list{display:grid;gap:10px}
+    .testi{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    blockquote{margin:0;padding:0;border-left:3px solid #2a3142;padding-left:12px;color:#cfd6df}
+    footer{padding:36px 0;color:var(--muted)}
+    .inline-form{display:flex;gap:10px;flex-wrap:wrap}
+    input, textarea{background:#111521;border:1px solid #2a3142;border-radius:10px;padding:12px;color:#e8ecf1;width:100%}
+    textarea{min-height:120px;resize:vertical}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:680px){.row{grid-template-columns:1fr}.hero h1{font-size:32px}}
+    .note{font-size:12px;color:var(--muted);margin-top:6px}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:#121725;border:1px solid #2a3142;color:#cfd6df;font-size:12px;margin-right:6px;margin-top:6px}
+    .small{font-size:14px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="nav">
+      <div class="brand">Melissa Allen</div>
+      <div class="pill">Consulting</div>
+    </nav>
+
+    <header class="hero">
+      <div class="badge"><span class="dot"></span> Strategy • Systems • Simple execution</div>
+      <h1>Practical consulting that helps you move the needle.</h1>
+      <p>I help small businesses tighten processes, polish messaging, and set up lightweight systems so you can grow without chaos.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Book a free intro call</a>
+        <a class="btn" href="#services">See services</a>
+      </div>
+    </header>
+
+    <section id="services" class="section">
+      <div class="kicker">Services</div>
+      <h2>Ways I can help</h2>
+      <div class="grid cards">
+        <div class="card">
+          <h3>Launch Kit</h3>
+          <p class="small">Get your business live in days, not months.</p>
+          <ul>
+            <li>Fast website setup</li>
+            <li>Payments & booking</li>
+            <li>Google Business Profile</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Operations Tune‑Up</h3>
+          <p class="small">Trim busywork and set up simple systems.</p>
+          <ul>
+            <li>Process mapping</li>
+            <li>Light automation</li>
+            <li>Templates & SOPs</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Outreach & Messaging</h3>
+          <p class="small">Clear copy that gets replies.</p>
+          <ul>
+            <li>Website & email copy</li>
+            <li>SMS & outreach scripts</li>
+            <li>Offer positioning</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Custom Sprint</h3>
+          <p class="small">A focused week on your top priority.</p>
+          <ul>
+            <li>Strategy + execution</li>
+            <li>Quick prototypes</li>
+            <li>Measurable outcomes</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Need something specific? Tell me what you're trying to accomplish and I'll suggest the simplest path.</p>
+    </section>
+
+    <section id="about" class="section">
+      <div class="kicker">About</div>
+      <h2>Hi, I’m Melissa.</h2>
+      <p>I work with founders and teams who want clean processes and clear communication. My approach is lightweight: no bloated tools, no endless decks—just the essentials that move work forward.</p>
+      <div>
+        <span class="tag">Process design</span>
+        <span class="tag">Go‑to‑market</span>
+        <span class="tag">Recruiting ops</span>
+        <span class="tag">Sales enablement</span>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="kicker">Kind words</div>
+      <h2>Results clients notice</h2>
+      <div class="testi">
+        <div class="card">
+          <blockquote>
+            “Melissa simplified our outreach in a week. Response rates doubled and the team finally had a repeatable process.”
+          </blockquote>
+          <p class="small">— A. Rivera, Director of Sales</p>
+        </div>
+        <div class="card">
+          <blockquote>
+            “We launched fast and clean. Clear steps, no fluff, and systems that the team actually uses.”
+          </blockquote>
+          <p class="small">— J. Patel, Founder</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="kicker">Contact</div>
+      <h2>Let’s talk</h2>
+      <p>Book a quick call or send a message. I’ll reply within one business day.</p>
+      <div class="grid" style="grid-template-columns:1.2fr 1fr;gap:18px">
+        <form class="card" action="mailto:melissaallen.recruiting@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <div><label class="small">Name</label><input name="name" placeholder="Your name" required></div>
+            <div><label class="small">Email</label><input name="email" type="email" placeholder="you@example.com" required></div>
+          </div>
+          <div style="margin-top:10px">
+            <label class="small">Message</label>
+            <textarea name="message" placeholder="What would you like help with?" required></textarea>
+          </div>
+          <div class="cta" style="margin-top:12px">
+            <button class="btn primary" type="submit">Send message</button>
+            <a class="btn" href="mailto:melissaallen.recruiting@gmail.com">Book a call</a>
+          </div>
+          
+        </form>
+        <div class="card">
+          <h3>Quick info</h3>
+          <p class="small"><strong>Email:</strong> melissaallen.recruiting@gmail.com</p>
+          <p class="small"><strong>Location:</strong> New York</p>
+          <p class="small"><strong>Availability:</strong> Currently taking on 1–2 new clients/month</p>
+          <div style="margin-top:8px">
+            <p class="small"><strong>Typical tools:</strong> Google Workspace, Calendly, Stripe, Notion, Airtable</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <div class="small">© <span id="y"></span> Melissa Allen. All rights reserved.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
